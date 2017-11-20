@@ -1,0 +1,3 @@
+msgid "BoringHub registration"
+msgstr "Регистрация на BoringHub"
+
