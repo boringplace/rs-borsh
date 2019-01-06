@@ -33,7 +33,8 @@ impl SQLiteStorage {
      * Check if the database has the necessary structures.
      */
     fn check_initialized(connection: &Connection) -> bool {
-        connection.execute("PRAGMA schema_version").
+        connection.execute("PRAGMA schema_version;", NO_PARAMS);
+        return false;
     }
 
     /**
