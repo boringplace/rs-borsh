@@ -1,8 +1,16 @@
 [package]
 name = "rs-borsh"
 version = "0.1.0"
+edition = "2018"
+publish = true
 authors = ["Igor NIR Chudov <nir@sarfsc.ru>"]
 description = "Boring Shell"
+homepage = "https://github.com/boringplace/rs-borsh"
+repository = "https://github.com/boringplace/rs-borsh"
+readme = "README.md"
+categories = ["authentication", "command-line-utilities"]
+license = "Unlicense"
+license-file = "UNLICENSE"
 
 [dependencies]
 gettext   = "0.3"
